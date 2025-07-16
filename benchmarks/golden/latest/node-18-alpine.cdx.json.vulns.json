@@ -1,0 +1,834 @@
+{
+  "matches": [
+    {
+      "vulnerability": {
+        "id": "GHSA-v6h2-p8h4-qcjw",
+        "dataSource": "https://github.com/advisories/GHSA-v6h2-p8h4-qcjw",
+        "namespace": "github:language:javascript",
+        "severity": "Low",
+        "urls": [],
+        "description": "brace-expansion Regular Expression Denial of Service vulnerability",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L",
+            "metrics": {
+              "baseScore": 3.1,
+              "exploitabilityScore": 1.7,
+              "impactScore": 1.5
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-5889",
+            "epss": 0.0006,
+            "percentile": 0.18964,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [
+            "2.0.2"
+          ],
+          "state": "fixed"
+        },
+        "advisories": [],
+        "risk": 0.018299999999999997
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-5889",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "javascript-matcher",
+          "searchedBy": {
+            "language": "javascript",
+            "namespace": "github:language:javascript",
+            "package": {
+              "name": "brace-expansion",
+              "version": "2.0.1"
+            }
+          },
+          "found": {
+            "vulnerabilityID": "GHSA-v6h2-p8h4-qcjw",
+            "versionConstraint": "\u003e=2.0.0,\u003c=2.0.1 (unknown)"
+          },
+          "fix": {
+            "suggestedVersion": "2.0.2"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:npm/brace-expansion@2.0.1?package-id=1e92fd1a5f38a5cd",
+        "name": "brace-expansion",
+        "version": "2.0.1",
+        "type": "npm",
+        "locations": [
+          {
+            "path": "/usr/local/lib/node_modules/npm/node_modules/brace-expansion/package.json",
+            "layerID": "sha256:105c493da35328733d40e72efbcc0ffe5f0327b8b82cfdbccd09b3566cfc183b",
+            "accessPath": ""
+          }
+        ],
+        "language": "javascript",
+        "licenses": [
+          "MIT"
+        ],
+        "cpes": [
+          "cpe:2.3:a:brace-expansion:brace-expansion:2.0.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:brace-expansion:brace_expansion:2.0.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:brace_expansion:brace-expansion:2.0.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:brace_expansion:brace_expansion:2.0.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:juliangruber:brace-expansion:2.0.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:juliangruber:brace_expansion:2.0.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:brace:brace-expansion:2.0.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:brace:brace_expansion:2.0.1:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:npm/brace-expansion@2.0.1",
+        "upstreams": []
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2024-58251",
+        "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-58251",
+        "namespace": "nvd:cpe",
+        "severity": "Low",
+        "urls": [
+          "https://bugs.busybox.net/show_bug.cgi?id=15922",
+          "https://www.busybox.net",
+          "https://www.busybox.net/downloads/",
+          "http://www.openwall.com/lists/oss-security/2025/04/23/6"
+        ],
+        "description": "In netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.",
+        "cvss": [
+          {
+            "source": "cve@mitre.org",
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L",
+            "metrics": {
+              "baseScore": 2.5,
+              "exploitabilityScore": 1.1,
+              "impactScore": 1.5
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2024-58251",
+            "epss": 0.00017,
+            "percentile": 0.02572,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": ""
+        },
+        "advisories": [],
+        "risk": 0.004675
+      },
+      "relatedVulnerabilities": [],
+      "matchDetails": [
+        {
+          "type": "cpe-match",
+          "matcher": "apk-matcher",
+          "searchedBy": {
+            "namespace": "nvd:cpe",
+            "cpes": [
+              "cpe:2.3:a:busybox:busybox:1.37.0:*:*:*:*:*:*:*"
+            ],
+            "package": {
+              "name": "busybox",
+              "version": "1.37.0-r12"
+            }
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2024-58251",
+            "versionConstraint": "\u003c= 1.37.0 (unknown)",
+            "cpes": [
+              "cpe:2.3:a:busybox:busybox:*:*:*:*:*:*:*:*"
+            ]
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:apk/alpine/busybox@1.37.0-r12?arch=aarch64\u0026distro=alpine-3.21.3\u0026package-id=715dd05656485a98",
+        "name": "busybox",
+        "version": "1.37.0-r12",
+        "type": "apk",
+        "locations": [
+          {
+            "path": "/lib/apk/db/installed",
+            "layerID": "sha256:37e456418fa3099dd00770b2625178407e25b249a0f8824eaa638b57299504bb",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "GPL-2.0-only"
+        ],
+        "cpes": [
+          "cpe:2.3:a:busybox:busybox:1.37.0-r12:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:apk/alpine/busybox@1.37.0-r12?arch=aarch64\u0026distro=alpine-3.21.3",
+        "upstreams": [
+          {
+            "name": "busybox"
+          }
+        ],
+        "metadataType": "ApkMetadata",
+        "metadata": {
+          "files": []
+        }
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-46394",
+        "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-46394",
+        "namespace": "nvd:cpe",
+        "severity": "Low",
+        "urls": [
+          "https://bugs.busybox.net/show_bug.cgi?id=16018",
+          "https://www.busybox.net",
+          "https://www.busybox.net/downloads/",
+          "http://www.openwall.com/lists/oss-security/2025/04/23/5",
+          "http://www.openwall.com/lists/oss-security/2025/04/24/3"
+        ],
+        "description": "In tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.",
+        "cvss": [
+          {
+            "source": "cve@mitre.org",
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:L/A:N",
+            "metrics": {
+              "baseScore": 3.2,
+              "exploitabilityScore": 1.5,
+              "impactScore": 1.5
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-46394",
+            "epss": 0.00018,
+            "percentile": 0.02885,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": ""
+        },
+        "advisories": [],
+        "risk": 0.00558
+      },
+      "relatedVulnerabilities": [],
+      "matchDetails": [
+        {
+          "type": "cpe-match",
+          "matcher": "apk-matcher",
+          "searchedBy": {
+            "namespace": "nvd:cpe",
+            "cpes": [
+              "cpe:2.3:a:busybox:busybox:1.37.0:*:*:*:*:*:*:*"
+            ],
+            "package": {
+              "name": "busybox",
+              "version": "1.37.0-r12"
+            }
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-46394",
+            "versionConstraint": "\u003c= 1.37.0 (unknown)",
+            "cpes": [
+              "cpe:2.3:a:busybox:busybox:*:*:*:*:*:*:*:*"
+            ]
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:apk/alpine/busybox@1.37.0-r12?arch=aarch64\u0026distro=alpine-3.21.3\u0026package-id=715dd05656485a98",
+        "name": "busybox",
+        "version": "1.37.0-r12",
+        "type": "apk",
+        "locations": [
+          {
+            "path": "/lib/apk/db/installed",
+            "layerID": "sha256:37e456418fa3099dd00770b2625178407e25b249a0f8824eaa638b57299504bb",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "GPL-2.0-only"
+        ],
+        "cpes": [
+          "cpe:2.3:a:busybox:busybox:1.37.0-r12:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:apk/alpine/busybox@1.37.0-r12?arch=aarch64\u0026distro=alpine-3.21.3",
+        "upstreams": [
+          {
+            "name": "busybox"
+          }
+        ],
+        "metadataType": "ApkMetadata",
+        "metadata": {
+          "files": []
+        }
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2024-58251",
+        "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-58251",
+        "namespace": "nvd:cpe",
+        "severity": "Low",
+        "urls": [
+          "https://bugs.busybox.net/show_bug.cgi?id=15922",
+          "https://www.busybox.net",
+          "https://www.busybox.net/downloads/",
+          "http://www.openwall.com/lists/oss-security/2025/04/23/6"
+        ],
+        "description": "In netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.",
+        "cvss": [
+          {
+            "source": "cve@mitre.org",
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L",
+            "metrics": {
+              "baseScore": 2.5,
+              "exploitabilityScore": 1.1,
+              "impactScore": 1.5
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2024-58251",
+            "epss": 0.00017,
+            "percentile": 0.02572,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": ""
+        },
+        "advisories": [],
+        "risk": 0.004675
+      },
+      "relatedVulnerabilities": [],
+      "matchDetails": [
+        {
+          "type": "cpe-match",
+          "matcher": "apk-matcher",
+          "searchedBy": {
+            "namespace": "nvd:cpe",
+            "cpes": [
+              "cpe:2.3:a:busybox:busybox:1.37.0:*:*:*:*:*:*:*"
+            ],
+            "package": {
+              "name": "busybox",
+              "version": "1.37.0-r12"
+            }
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2024-58251",
+            "versionConstraint": "\u003c= 1.37.0 (unknown)",
+            "cpes": [
+              "cpe:2.3:a:busybox:busybox:*:*:*:*:*:*:*:*"
+            ]
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:apk/alpine/busybox-binsh@1.37.0-r12?arch=aarch64\u0026distro=alpine-3.21.3\u0026package-id=d6267b7ca32e9850\u0026upstream=busybox",
+        "name": "busybox-binsh",
+        "version": "1.37.0-r12",
+        "type": "apk",
+        "locations": [
+          {
+            "path": "/lib/apk/db/installed",
+            "layerID": "sha256:37e456418fa3099dd00770b2625178407e25b249a0f8824eaa638b57299504bb",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "GPL-2.0-only"
+        ],
+        "cpes": [
+          "cpe:2.3:a:busybox-binsh:busybox-binsh:1.37.0-r12:*:*:*:*:*:*:*",
+          "cpe:2.3:a:busybox-binsh:busybox_binsh:1.37.0-r12:*:*:*:*:*:*:*",
+          "cpe:2.3:a:busybox_binsh:busybox-binsh:1.37.0-r12:*:*:*:*:*:*:*",
+          "cpe:2.3:a:busybox_binsh:busybox_binsh:1.37.0-r12:*:*:*:*:*:*:*",
+          "cpe:2.3:a:busybox:busybox-binsh:1.37.0-r12:*:*:*:*:*:*:*",
+          "cpe:2.3:a:busybox:busybox_binsh:1.37.0-r12:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:apk/alpine/busybox-binsh@1.37.0-r12?arch=aarch64\u0026distro=alpine-3.21.3\u0026upstream=busybox",
+        "upstreams": [
+          {
+            "name": "busybox"
+          }
+        ],
+        "metadataType": "ApkMetadata",
+        "metadata": {
+          "files": []
+        }
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-46394",
+        "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-46394",
+        "namespace": "nvd:cpe",
+        "severity": "Low",
+        "urls": [
+          "https://bugs.busybox.net/show_bug.cgi?id=16018",
+          "https://www.busybox.net",
+          "https://www.busybox.net/downloads/",
+          "http://www.openwall.com/lists/oss-security/2025/04/23/5",
+          "http://www.openwall.com/lists/oss-security/2025/04/24/3"
+        ],
+        "description": "In tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.",
+        "cvss": [
+          {
+            "source": "cve@mitre.org",
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:L/A:N",
+            "metrics": {
+              "baseScore": 3.2,
+              "exploitabilityScore": 1.5,
+              "impactScore": 1.5
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-46394",
+            "epss": 0.00018,
+            "percentile": 0.02885,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": ""
+        },
+        "advisories": [],
+        "risk": 0.00558
+      },
+      "relatedVulnerabilities": [],
+      "matchDetails": [
+        {
+          "type": "cpe-match",
+          "matcher": "apk-matcher",
+          "searchedBy": {
+            "namespace": "nvd:cpe",
+            "cpes": [
+              "cpe:2.3:a:busybox:busybox:1.37.0:*:*:*:*:*:*:*"
+            ],
+            "package": {
+              "name": "busybox",
+              "version": "1.37.0-r12"
+            }
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-46394",
+            "versionConstraint": "\u003c= 1.37.0 (unknown)",
+            "cpes": [
+              "cpe:2.3:a:busybox:busybox:*:*:*:*:*:*:*:*"
+            ]
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:apk/alpine/busybox-binsh@1.37.0-r12?arch=aarch64\u0026distro=alpine-3.21.3\u0026package-id=d6267b7ca32e9850\u0026upstream=busybox",
+        "name": "busybox-binsh",
+        "version": "1.37.0-r12",
+        "type": "apk",
+        "locations": [
+          {
+            "path": "/lib/apk/db/installed",
+            "layerID": "sha256:37e456418fa3099dd00770b2625178407e25b249a0f8824eaa638b57299504bb",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "GPL-2.0-only"
+        ],
+        "cpes": [
+          "cpe:2.3:a:busybox-binsh:busybox-binsh:1.37.0-r12:*:*:*:*:*:*:*",
+          "cpe:2.3:a:busybox-binsh:busybox_binsh:1.37.0-r12:*:*:*:*:*:*:*",
+          "cpe:2.3:a:busybox_binsh:busybox-binsh:1.37.0-r12:*:*:*:*:*:*:*",
+          "cpe:2.3:a:busybox_binsh:busybox_binsh:1.37.0-r12:*:*:*:*:*:*:*",
+          "cpe:2.3:a:busybox:busybox-binsh:1.37.0-r12:*:*:*:*:*:*:*",
+          "cpe:2.3:a:busybox:busybox_binsh:1.37.0-r12:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:apk/alpine/busybox-binsh@1.37.0-r12?arch=aarch64\u0026distro=alpine-3.21.3\u0026upstream=busybox",
+        "upstreams": [
+          {
+            "name": "busybox"
+          }
+        ],
+        "metadataType": "ApkMetadata",
+        "metadata": {
+          "files": []
+        }
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "GHSA-3xgq-45jj-v275",
+        "dataSource": "https://github.com/advisories/GHSA-3xgq-45jj-v275",
+        "namespace": "github:language:javascript",
+        "severity": "High",
+        "urls": [],
+        "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "metrics": {
+              "baseScore": 7.5,
+              "exploitabilityScore": 3.9,
+              "impactScore": 3.6
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2024-21538",
+            "epss": 0.00197,
+            "percentile": 0.42103,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [
+            "7.0.5"
+          ],
+          "state": "fixed"
+        },
+        "advisories": [],
+        "risk": 0.14775000000000002
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2024-21538",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "javascript-matcher",
+          "searchedBy": {
+            "language": "javascript",
+            "namespace": "github:language:javascript",
+            "package": {
+              "name": "cross-spawn",
+              "version": "7.0.3"
+            }
+          },
+          "found": {
+            "vulnerabilityID": "GHSA-3xgq-45jj-v275",
+            "versionConstraint": "\u003e=7.0.0,\u003c7.0.5 (unknown)"
+          },
+          "fix": {
+            "suggestedVersion": "7.0.5"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:npm/cross-spawn@7.0.3?package-id=865cfebf5dd00b8c",
+        "name": "cross-spawn",
+        "version": "7.0.3",
+        "type": "npm",
+        "locations": [
+          {
+            "path": "/usr/local/lib/node_modules/npm/node_modules/cross-spawn/package.json",
+            "layerID": "sha256:105c493da35328733d40e72efbcc0ffe5f0327b8b82cfdbccd09b3566cfc183b",
+            "accessPath": ""
+          }
+        ],
+        "language": "javascript",
+        "licenses": [
+          "MIT"
+        ],
+        "cpes": [
+          "cpe:2.3:a:cross-spawn:cross-spawn:7.0.3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:cross-spawn:cross_spawn:7.0.3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:cross_spawn:cross-spawn:7.0.3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:cross_spawn:cross_spawn:7.0.3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:moxystudio:cross-spawn:7.0.3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:moxystudio:cross_spawn:7.0.3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:cross:cross-spawn:7.0.3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:cross:cross_spawn:7.0.3:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:npm/cross-spawn@7.0.3",
+        "upstreams": []
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2024-58251",
+        "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-58251",
+        "namespace": "nvd:cpe",
+        "severity": "Low",
+        "urls": [
+          "https://bugs.busybox.net/show_bug.cgi?id=15922",
+          "https://www.busybox.net",
+          "https://www.busybox.net/downloads/",
+          "http://www.openwall.com/lists/oss-security/2025/04/23/6"
+        ],
+        "description": "In netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.",
+        "cvss": [
+          {
+            "source": "cve@mitre.org",
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L",
+            "metrics": {
+              "baseScore": 2.5,
+              "exploitabilityScore": 1.1,
+              "impactScore": 1.5
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2024-58251",
+            "epss": 0.00017,
+            "percentile": 0.02572,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": ""
+        },
+        "advisories": [],
+        "risk": 0.004675
+      },
+      "relatedVulnerabilities": [],
+      "matchDetails": [
+        {
+          "type": "cpe-match",
+          "matcher": "apk-matcher",
+          "searchedBy": {
+            "namespace": "nvd:cpe",
+            "cpes": [
+              "cpe:2.3:a:busybox:busybox:1.37.0:*:*:*:*:*:*:*"
+            ],
+            "package": {
+              "name": "busybox",
+              "version": "1.37.0-r12"
+            }
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2024-58251",
+            "versionConstraint": "\u003c= 1.37.0 (unknown)",
+            "cpes": [
+              "cpe:2.3:a:busybox:busybox:*:*:*:*:*:*:*:*"
+            ]
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:apk/alpine/ssl_client@1.37.0-r12?arch=aarch64\u0026distro=alpine-3.21.3\u0026package-id=062360195221b84a\u0026upstream=busybox",
+        "name": "ssl_client",
+        "version": "1.37.0-r12",
+        "type": "apk",
+        "locations": [
+          {
+            "path": "/lib/apk/db/installed",
+            "layerID": "sha256:37e456418fa3099dd00770b2625178407e25b249a0f8824eaa638b57299504bb",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "GPL-2.0-only"
+        ],
+        "cpes": [
+          "cpe:2.3:a:ssl-client:ssl-client:1.37.0-r12:*:*:*:*:*:*:*",
+          "cpe:2.3:a:ssl-client:ssl_client:1.37.0-r12:*:*:*:*:*:*:*",
+          "cpe:2.3:a:ssl_client:ssl-client:1.37.0-r12:*:*:*:*:*:*:*",
+          "cpe:2.3:a:ssl_client:ssl_client:1.37.0-r12:*:*:*:*:*:*:*",
+          "cpe:2.3:a:ssl:ssl-client:1.37.0-r12:*:*:*:*:*:*:*",
+          "cpe:2.3:a:ssl:ssl_client:1.37.0-r12:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:apk/alpine/ssl_client@1.37.0-r12?arch=aarch64\u0026distro=alpine-3.21.3\u0026upstream=busybox",
+        "upstreams": [
+          {
+            "name": "busybox"
+          }
+        ],
+        "metadataType": "ApkMetadata",
+        "metadata": {
+          "files": []
+        }
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-46394",
+        "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-46394",
+        "namespace": "nvd:cpe",
+        "severity": "Low",
+        "urls": [
+          "https://bugs.busybox.net/show_bug.cgi?id=16018",
+          "https://www.busybox.net",
+          "https://www.busybox.net/downloads/",
+          "http://www.openwall.com/lists/oss-security/2025/04/23/5",
+          "http://www.openwall.com/lists/oss-security/2025/04/24/3"
+        ],
+        "description": "In tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.",
+        "cvss": [
+          {
+            "source": "cve@mitre.org",
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:L/A:N",
+            "metrics": {
+              "baseScore": 3.2,
+              "exploitabilityScore": 1.5,
+              "impactScore": 1.5
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-46394",
+            "epss": 0.00018,
+            "percentile": 0.02885,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": ""
+        },
+        "advisories": [],
+        "risk": 0.00558
+      },
+      "relatedVulnerabilities": [],
+      "matchDetails": [
+        {
+          "type": "cpe-match",
+          "matcher": "apk-matcher",
+          "searchedBy": {
+            "namespace": "nvd:cpe",
+            "cpes": [
+              "cpe:2.3:a:busybox:busybox:1.37.0:*:*:*:*:*:*:*"
+            ],
+            "package": {
+              "name": "busybox",
+              "version": "1.37.0-r12"
+            }
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-46394",
+            "versionConstraint": "\u003c= 1.37.0 (unknown)",
+            "cpes": [
+              "cpe:2.3:a:busybox:busybox:*:*:*:*:*:*:*:*"
+            ]
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:apk/alpine/ssl_client@1.37.0-r12?arch=aarch64\u0026distro=alpine-3.21.3\u0026package-id=062360195221b84a\u0026upstream=busybox",
+        "name": "ssl_client",
+        "version": "1.37.0-r12",
+        "type": "apk",
+        "locations": [
+          {
+            "path": "/lib/apk/db/installed",
+            "layerID": "sha256:37e456418fa3099dd00770b2625178407e25b249a0f8824eaa638b57299504bb",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "GPL-2.0-only"
+        ],
+        "cpes": [
+          "cpe:2.3:a:ssl-client:ssl-client:1.37.0-r12:*:*:*:*:*:*:*",
+          "cpe:2.3:a:ssl-client:ssl_client:1.37.0-r12:*:*:*:*:*:*:*",
+          "cpe:2.3:a:ssl_client:ssl-client:1.37.0-r12:*:*:*:*:*:*:*",
+          "cpe:2.3:a:ssl_client:ssl_client:1.37.0-r12:*:*:*:*:*:*:*",
+          "cpe:2.3:a:ssl:ssl-client:1.37.0-r12:*:*:*:*:*:*:*",
+          "cpe:2.3:a:ssl:ssl_client:1.37.0-r12:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:apk/alpine/ssl_client@1.37.0-r12?arch=aarch64\u0026distro=alpine-3.21.3\u0026upstream=busybox",
+        "upstreams": [
+          {
+            "name": "busybox"
+          }
+        ],
+        "metadataType": "ApkMetadata",
+        "metadata": {
+          "files": []
+        }
+      }
+    }
+  ],
+  "source": {
+    "type": "image",
+    "target": {
+      "userInput": "node",
+      "imageID": "45115a56dc826c4a",
+      "manifestDigest": "18-alpine",
+      "mediaType": "",
+      "tags": [],
+      "imageSize": 0,
+      "layers": null,
+      "manifest": null,
+      "config": null,
+      "repoDigests": [],
+      "architecture": "",
+      "os": ""
+    }
+  },
+  "distro": {
+    "name": "alpine",
+    "version": "3.21.3",
+    "idLike": [
+      "alpine"
+    ]
+  },
+  "descriptor": {
+    "name": "grype",
+    "version": "[not provided]",
+    "timestamp": "2025-07-16T11:36:22.460814+01:00"
+  }
+}

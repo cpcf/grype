@@ -1,0 +1,3445 @@
+{
+  "matches": [
+    {
+      "vulnerability": {
+        "id": "CVE-2016-2781",
+        "dataSource": "https://ubuntu.com/security/CVE-2016-2781",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Low",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2016-2781",
+            "epss": 0.00065,
+            "percentile": 0.20631,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.0195
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2016-2781",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "coreutils",
+              "version": "9.4-3ubuntu6"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2016-2781",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/coreutils@9.4-3ubuntu6?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=da4672b56a7a2513",
+        "name": "coreutils",
+        "version": "9.4-3ubuntu6",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/coreutils/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/coreutils.list",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/coreutils.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "BSD-4-Clause-UC",
+          "FSFULLR",
+          "GFDL-1.3-only",
+          "GFDL-NIV-1.3",
+          "GPL-3.0-only",
+          "GPL-3.0-or-later",
+          "ISC"
+        ],
+        "cpes": [
+          "cpe:2.3:a:coreutils:coreutils:9.4-3ubuntu6:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/coreutils@9.4-3ubuntu6?arch=arm64\u0026distro=ubuntu-24.04",
+        "upstreams": []
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-5278",
+        "dataSource": "https://ubuntu.com/security/CVE-2025-5278",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Low",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2025-5278",
+            "epss": 0.00015,
+            "percentile": 0.01964,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.0045
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-5278",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "coreutils",
+              "version": "9.4-3ubuntu6"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-5278",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/coreutils@9.4-3ubuntu6?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=da4672b56a7a2513",
+        "name": "coreutils",
+        "version": "9.4-3ubuntu6",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/coreutils/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/coreutils.list",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/coreutils.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "BSD-4-Clause-UC",
+          "FSFULLR",
+          "GFDL-1.3-only",
+          "GFDL-NIV-1.3",
+          "GPL-3.0-only",
+          "GPL-3.0-or-later",
+          "ISC"
+        ],
+        "cpes": [
+          "cpe:2.3:a:coreutils:coreutils:9.4-3ubuntu6:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/coreutils@9.4-3ubuntu6?arch=arm64\u0026distro=ubuntu-24.04",
+        "upstreams": []
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-6297",
+        "dataSource": "https://ubuntu.com/security/CVE-2025-6297",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Low",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2025-6297",
+            "epss": 0.00075,
+            "percentile": 0.23376,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.0225
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-6297",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "dpkg",
+              "version": "1.22.6ubuntu6.1"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-6297",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/dpkg@1.22.6ubuntu6.1?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=f6b2d24903395963",
+        "name": "dpkg",
+        "version": "1.22.6ubuntu6.1",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/dpkg/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/dpkg.conffiles",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/dpkg.list",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/dpkg.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/dpkg.postinst",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/dpkg.postrm",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "GPL-2.0-only",
+          "GPL-2.0-or-later",
+          "public-domain-s-s-d"
+        ],
+        "cpes": [
+          "cpe:2.3:a:dpkg:dpkg:1.22.6ubuntu6.1:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/dpkg@1.22.6ubuntu6.1?arch=arm64\u0026distro=ubuntu-24.04",
+        "upstreams": []
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2022-3219",
+        "dataSource": "https://ubuntu.com/security/CVE-2022-3219",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Low",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2022-3219",
+            "epss": 0.00012,
+            "percentile": 0.01259,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.0036
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2022-3219",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "gnupg2",
+              "version": "2.4.4-2ubuntu17.2"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2022-3219",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/gpgv@2.4.4-2ubuntu17.2?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=24ce3019a325107a\u0026upstream=gnupg2",
+        "name": "gpgv",
+        "version": "2.4.4-2ubuntu17.2",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/gpgv/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/gpgv.list",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/gpgv.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "BSD-3-Clause",
+          "CC0-1.0",
+          "Expat",
+          "GPL-2.0-only",
+          "GPL-2.0-or-later",
+          "GPL-3.0-only",
+          "GPL-3.0-or-later",
+          "LGPL-2.1-only",
+          "LGPL-2.1-or-later",
+          "LGPL-3.0-only",
+          "LGPL-3.0-or-later",
+          "RFC-Reference",
+          "TinySCHEME",
+          "permissive"
+        ],
+        "cpes": [
+          "cpe:2.3:a:gpgv:gpgv:2.4.4-2ubuntu17.2:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/gpgv@2.4.4-2ubuntu17.2?arch=arm64\u0026distro=ubuntu-24.04\u0026upstream=gnupg2",
+        "upstreams": [
+          {
+            "name": "gnupg2"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2016-20013",
+        "dataSource": "https://ubuntu.com/security/CVE-2016-20013",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Negligible",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2016-20013",
+            "epss": 0.00192,
+            "percentile": 0.41492,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.009600000000000001
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2016-20013",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "glibc",
+              "version": "2.39-0ubuntu8.4"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2016-20013",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/libc-bin@2.39-0ubuntu8.4?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=ea37fa4042a1eb92\u0026upstream=glibc",
+        "name": "libc-bin",
+        "version": "2.39-0ubuntu8.4",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/libc-bin/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libc-bin.conffiles",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libc-bin.list",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libc-bin.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libc-bin.postinst",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libc-bin.triggers",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "GFDL-1.3-only",
+          "GPL-2.0-only",
+          "LGPL-2.1-only"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libc-bin:libc-bin:2.39-0ubuntu8.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libc-bin:libc_bin:2.39-0ubuntu8.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libc_bin:libc-bin:2.39-0ubuntu8.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libc_bin:libc_bin:2.39-0ubuntu8.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libc:libc-bin:2.39-0ubuntu8.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libc:libc_bin:2.39-0ubuntu8.4:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/libc-bin@2.39-0ubuntu8.4?arch=arm64\u0026distro=ubuntu-24.04\u0026upstream=glibc",
+        "upstreams": [
+          {
+            "name": "glibc"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-5702",
+        "dataSource": "https://ubuntu.com/security/CVE-2025-5702",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Medium",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2025-5702",
+            "epss": 0.00053,
+            "percentile": 0.16552,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [
+            "2.39-0ubuntu8.5"
+          ],
+          "state": "fixed"
+        },
+        "advisories": [],
+        "risk": 0.0265
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-5702",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "glibc",
+              "version": "2.39-0ubuntu8.4"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-5702",
+            "versionConstraint": "\u003c 2.39-0ubuntu8.5 (deb)"
+          },
+          "fix": {
+            "suggestedVersion": "2.39-0ubuntu8.5"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/libc-bin@2.39-0ubuntu8.4?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=ea37fa4042a1eb92\u0026upstream=glibc",
+        "name": "libc-bin",
+        "version": "2.39-0ubuntu8.4",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/libc-bin/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libc-bin.conffiles",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libc-bin.list",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libc-bin.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libc-bin.postinst",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libc-bin.triggers",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "GFDL-1.3-only",
+          "GPL-2.0-only",
+          "LGPL-2.1-only"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libc-bin:libc-bin:2.39-0ubuntu8.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libc-bin:libc_bin:2.39-0ubuntu8.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libc_bin:libc-bin:2.39-0ubuntu8.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libc_bin:libc_bin:2.39-0ubuntu8.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libc:libc-bin:2.39-0ubuntu8.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libc:libc_bin:2.39-0ubuntu8.4:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/libc-bin@2.39-0ubuntu8.4?arch=arm64\u0026distro=ubuntu-24.04\u0026upstream=glibc",
+        "upstreams": [
+          {
+            "name": "glibc"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2016-20013",
+        "dataSource": "https://ubuntu.com/security/CVE-2016-20013",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Negligible",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2016-20013",
+            "epss": 0.00192,
+            "percentile": 0.41492,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.009600000000000001
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2016-20013",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "glibc",
+              "version": "2.39-0ubuntu8.4"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2016-20013",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/libc6@2.39-0ubuntu8.4?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=ab3fe698dede9c86\u0026upstream=glibc",
+        "name": "libc6",
+        "version": "2.39-0ubuntu8.4",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/libc6/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libc6:arm64.conffiles",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libc6:arm64.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "GFDL-1.3-only",
+          "GPL-2.0-only",
+          "LGPL-2.1-only"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libc6:libc6:2.39-0ubuntu8.4:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/libc6@2.39-0ubuntu8.4?arch=arm64\u0026distro=ubuntu-24.04\u0026upstream=glibc",
+        "upstreams": [
+          {
+            "name": "glibc"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-5702",
+        "dataSource": "https://ubuntu.com/security/CVE-2025-5702",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Medium",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2025-5702",
+            "epss": 0.00053,
+            "percentile": 0.16552,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [
+            "2.39-0ubuntu8.5"
+          ],
+          "state": "fixed"
+        },
+        "advisories": [],
+        "risk": 0.0265
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-5702",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "glibc",
+              "version": "2.39-0ubuntu8.4"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-5702",
+            "versionConstraint": "\u003c 2.39-0ubuntu8.5 (deb)"
+          },
+          "fix": {
+            "suggestedVersion": "2.39-0ubuntu8.5"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/libc6@2.39-0ubuntu8.4?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=ab3fe698dede9c86\u0026upstream=glibc",
+        "name": "libc6",
+        "version": "2.39-0ubuntu8.4",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/libc6/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libc6:arm64.conffiles",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libc6:arm64.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "GFDL-1.3-only",
+          "GPL-2.0-only",
+          "LGPL-2.1-only"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libc6:libc6:2.39-0ubuntu8.4:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/libc6@2.39-0ubuntu8.4?arch=arm64\u0026distro=ubuntu-24.04\u0026upstream=glibc",
+        "upstreams": [
+          {
+            "name": "glibc"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2024-2236",
+        "dataSource": "https://ubuntu.com/security/CVE-2024-2236",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Low",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2024-2236",
+            "epss": 0.00163,
+            "percentile": 0.37989,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.0489
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2024-2236",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "libgcrypt20",
+              "version": "1.10.3-2build1"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2024-2236",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/libgcrypt20@1.10.3-2build1?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=c860bd507b645f75",
+        "name": "libgcrypt20",
+        "version": "1.10.3-2build1",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/libgcrypt20/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libgcrypt20:arm64.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "GPL-2.0-only",
+          "LGPL"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libgcrypt20:libgcrypt20:1.10.3-2build1:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/libgcrypt20@1.10.3-2build1?arch=arm64\u0026distro=ubuntu-24.04",
+        "upstreams": []
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-32988",
+        "dataSource": "https://ubuntu.com/security/CVE-2025-32988",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Medium",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2025-32988",
+            "epss": 0.0004,
+            "percentile": 0.11112,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [
+            "3.8.3-1.1ubuntu3.4"
+          ],
+          "state": "fixed"
+        },
+        "advisories": [],
+        "risk": 0.02
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-32988",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "gnutls28",
+              "version": "3.8.3-1.1ubuntu3.3"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-32988",
+            "versionConstraint": "\u003c 3.8.3-1.1ubuntu3.4 (deb)"
+          },
+          "fix": {
+            "suggestedVersion": "3.8.3-1.1ubuntu3.4"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/libgnutls30t64@3.8.3-1.1ubuntu3.3?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=de83be3608b76bc6\u0026upstream=gnutls28",
+        "name": "libgnutls30t64",
+        "version": "3.8.3-1.1ubuntu3.3",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/libgnutls30t64/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libgnutls30t64:arm64.conffiles",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libgnutls30t64:arm64.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "Apache-2.0",
+          "BSD-3-Clause",
+          "CC0",
+          "Expat",
+          "GFDL-1.3-only",
+          "GPL",
+          "GPL-3.0-only",
+          "GPLv3+",
+          "LGPL",
+          "LGPL-3.0-only",
+          "LGPLv2.1+",
+          "LGPLv3+_or_GPLv2+",
+          "The"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libgnutls30t64:libgnutls30t64:3.8.3-1.1ubuntu3.3:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/libgnutls30t64@3.8.3-1.1ubuntu3.3?arch=arm64\u0026distro=ubuntu-24.04\u0026upstream=gnutls28",
+        "upstreams": [
+          {
+            "name": "gnutls28"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-32989",
+        "dataSource": "https://ubuntu.com/security/CVE-2025-32989",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Medium",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2025-32989",
+            "epss": 0.00016,
+            "percentile": 0.02223,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [
+            "3.8.3-1.1ubuntu3.4"
+          ],
+          "state": "fixed"
+        },
+        "advisories": [],
+        "risk": 0.008
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-32989",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "gnutls28",
+              "version": "3.8.3-1.1ubuntu3.3"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-32989",
+            "versionConstraint": "\u003c 3.8.3-1.1ubuntu3.4 (deb)"
+          },
+          "fix": {
+            "suggestedVersion": "3.8.3-1.1ubuntu3.4"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/libgnutls30t64@3.8.3-1.1ubuntu3.3?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=de83be3608b76bc6\u0026upstream=gnutls28",
+        "name": "libgnutls30t64",
+        "version": "3.8.3-1.1ubuntu3.3",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/libgnutls30t64/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libgnutls30t64:arm64.conffiles",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libgnutls30t64:arm64.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "Apache-2.0",
+          "BSD-3-Clause",
+          "CC0",
+          "Expat",
+          "GFDL-1.3-only",
+          "GPL",
+          "GPL-3.0-only",
+          "GPLv3+",
+          "LGPL",
+          "LGPL-3.0-only",
+          "LGPLv2.1+",
+          "LGPLv3+_or_GPLv2+",
+          "The"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libgnutls30t64:libgnutls30t64:3.8.3-1.1ubuntu3.3:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/libgnutls30t64@3.8.3-1.1ubuntu3.3?arch=arm64\u0026distro=ubuntu-24.04\u0026upstream=gnutls28",
+        "upstreams": [
+          {
+            "name": "gnutls28"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-32990",
+        "dataSource": "https://ubuntu.com/security/CVE-2025-32990",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Medium",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2025-32990",
+            "epss": 0.00045,
+            "percentile": 0.13213,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [
+            "3.8.3-1.1ubuntu3.4"
+          ],
+          "state": "fixed"
+        },
+        "advisories": [],
+        "risk": 0.0225
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-32990",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "gnutls28",
+              "version": "3.8.3-1.1ubuntu3.3"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-32990",
+            "versionConstraint": "\u003c 3.8.3-1.1ubuntu3.4 (deb)"
+          },
+          "fix": {
+            "suggestedVersion": "3.8.3-1.1ubuntu3.4"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/libgnutls30t64@3.8.3-1.1ubuntu3.3?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=de83be3608b76bc6\u0026upstream=gnutls28",
+        "name": "libgnutls30t64",
+        "version": "3.8.3-1.1ubuntu3.3",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/libgnutls30t64/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libgnutls30t64:arm64.conffiles",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libgnutls30t64:arm64.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "Apache-2.0",
+          "BSD-3-Clause",
+          "CC0",
+          "Expat",
+          "GFDL-1.3-only",
+          "GPL",
+          "GPL-3.0-only",
+          "GPLv3+",
+          "LGPL",
+          "LGPL-3.0-only",
+          "LGPLv2.1+",
+          "LGPLv3+_or_GPLv2+",
+          "The"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libgnutls30t64:libgnutls30t64:3.8.3-1.1ubuntu3.3:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/libgnutls30t64@3.8.3-1.1ubuntu3.3?arch=arm64\u0026distro=ubuntu-24.04\u0026upstream=gnutls28",
+        "upstreams": [
+          {
+            "name": "gnutls28"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-6395",
+        "dataSource": "https://ubuntu.com/security/CVE-2025-6395",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Medium",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2025-6395",
+            "epss": 0.0004,
+            "percentile": 0.11225,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [
+            "3.8.3-1.1ubuntu3.4"
+          ],
+          "state": "fixed"
+        },
+        "advisories": [],
+        "risk": 0.02
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-6395",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "gnutls28",
+              "version": "3.8.3-1.1ubuntu3.3"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-6395",
+            "versionConstraint": "\u003c 3.8.3-1.1ubuntu3.4 (deb)"
+          },
+          "fix": {
+            "suggestedVersion": "3.8.3-1.1ubuntu3.4"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/libgnutls30t64@3.8.3-1.1ubuntu3.3?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=de83be3608b76bc6\u0026upstream=gnutls28",
+        "name": "libgnutls30t64",
+        "version": "3.8.3-1.1ubuntu3.3",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/libgnutls30t64/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libgnutls30t64:arm64.conffiles",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libgnutls30t64:arm64.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "Apache-2.0",
+          "BSD-3-Clause",
+          "CC0",
+          "Expat",
+          "GFDL-1.3-only",
+          "GPL",
+          "GPL-3.0-only",
+          "GPLv3+",
+          "LGPL",
+          "LGPL-3.0-only",
+          "LGPLv2.1+",
+          "LGPLv3+_or_GPLv2+",
+          "The"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libgnutls30t64:libgnutls30t64:3.8.3-1.1ubuntu3.3:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/libgnutls30t64@3.8.3-1.1ubuntu3.3?arch=arm64\u0026distro=ubuntu-24.04\u0026upstream=gnutls28",
+        "upstreams": [
+          {
+            "name": "gnutls28"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-6141",
+        "dataSource": "https://ubuntu.com/security/CVE-2025-6141",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Low",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2025-6141",
+            "epss": 0.00014,
+            "percentile": 0.01714,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.0042
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-6141",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "ncurses",
+              "version": "6.4+20240113-1ubuntu2"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-6141",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/libncursesw6@6.4%2B20240113-1ubuntu2?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=f16ba5e37b24583a\u0026upstream=ncurses",
+        "name": "libncursesw6",
+        "version": "6.4+20240113-1ubuntu2",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/libtinfo6/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libncursesw6:arm64.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "BSD-3-Clause",
+          "MIT/X11",
+          "X11"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libncursesw6:libncursesw6:6.4\\+20240113-1ubuntu2:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/libncursesw6@6.4%2B20240113-1ubuntu2?arch=arm64\u0026distro=ubuntu-24.04\u0026upstream=ncurses",
+        "upstreams": [
+          {
+            "name": "ncurses"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2024-10041",
+        "dataSource": "https://ubuntu.com/security/CVE-2024-10041",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Medium",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2024-10041",
+            "epss": 0.00029,
+            "percentile": 0.06377,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.0145
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2024-10041",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "pam",
+              "version": "1.5.3-5ubuntu5.4"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2024-10041",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/libpam-modules@1.5.3-5ubuntu5.4?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=a5a0853120fce703\u0026upstream=pam",
+        "name": "libpam-modules",
+        "version": "1.5.3-5ubuntu5.4",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/libpam-modules/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-modules:arm64.conffiles",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-modules:arm64.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "BSD-3-Clause",
+          "BSD-tcp_wrappers",
+          "Beerware",
+          "GPL",
+          "GPL-2.0-only",
+          "GPL-2.0-or-later",
+          "GPL-3.0-only",
+          "GPL-3.0-or-later",
+          "LGPL-2.0-only",
+          "LGPL-2.0-or-later",
+          "public-domain"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libpam-modules:libpam-modules:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam-modules:libpam_modules:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam_modules:libpam-modules:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam_modules:libpam_modules:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam:libpam-modules:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam:libpam_modules:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/libpam-modules@1.5.3-5ubuntu5.4?arch=arm64\u0026distro=ubuntu-24.04\u0026upstream=pam",
+        "upstreams": [
+          {
+            "name": "pam"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2024-10963",
+        "dataSource": "https://ubuntu.com/security/CVE-2024-10963",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Medium",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2024-10963",
+            "epss": 0.00181,
+            "percentile": 0.40273,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.0905
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2024-10963",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "pam",
+              "version": "1.5.3-5ubuntu5.4"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2024-10963",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/libpam-modules@1.5.3-5ubuntu5.4?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=a5a0853120fce703\u0026upstream=pam",
+        "name": "libpam-modules",
+        "version": "1.5.3-5ubuntu5.4",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/libpam-modules/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-modules:arm64.conffiles",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-modules:arm64.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "BSD-3-Clause",
+          "BSD-tcp_wrappers",
+          "Beerware",
+          "GPL",
+          "GPL-2.0-only",
+          "GPL-2.0-or-later",
+          "GPL-3.0-only",
+          "GPL-3.0-or-later",
+          "LGPL-2.0-only",
+          "LGPL-2.0-or-later",
+          "public-domain"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libpam-modules:libpam-modules:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam-modules:libpam_modules:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam_modules:libpam-modules:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam_modules:libpam_modules:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam:libpam-modules:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam:libpam_modules:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/libpam-modules@1.5.3-5ubuntu5.4?arch=arm64\u0026distro=ubuntu-24.04\u0026upstream=pam",
+        "upstreams": [
+          {
+            "name": "pam"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2024-10041",
+        "dataSource": "https://ubuntu.com/security/CVE-2024-10041",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Medium",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2024-10041",
+            "epss": 0.00029,
+            "percentile": 0.06377,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.0145
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2024-10041",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "pam",
+              "version": "1.5.3-5ubuntu5.4"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2024-10041",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/libpam-modules-bin@1.5.3-5ubuntu5.4?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=639c2dd859892e5b\u0026upstream=pam",
+        "name": "libpam-modules-bin",
+        "version": "1.5.3-5ubuntu5.4",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/libpam-modules-bin/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-modules-bin.list",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-modules-bin.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-modules-bin.postinst",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-modules-bin.postrm",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-modules-bin.prerm",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "BSD-3-Clause",
+          "BSD-tcp_wrappers",
+          "Beerware",
+          "GPL",
+          "GPL-2.0-only",
+          "GPL-2.0-or-later",
+          "GPL-3.0-only",
+          "GPL-3.0-or-later",
+          "LGPL-2.0-only",
+          "LGPL-2.0-or-later",
+          "public-domain"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libpam-modules-bin:libpam-modules-bin:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam-modules-bin:libpam_modules_bin:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam_modules_bin:libpam-modules-bin:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam_modules_bin:libpam_modules_bin:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam-modules:libpam-modules-bin:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam-modules:libpam_modules_bin:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam_modules:libpam-modules-bin:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam_modules:libpam_modules_bin:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam:libpam-modules-bin:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam:libpam_modules_bin:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/libpam-modules-bin@1.5.3-5ubuntu5.4?arch=arm64\u0026distro=ubuntu-24.04\u0026upstream=pam",
+        "upstreams": [
+          {
+            "name": "pam"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2024-10963",
+        "dataSource": "https://ubuntu.com/security/CVE-2024-10963",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Medium",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2024-10963",
+            "epss": 0.00181,
+            "percentile": 0.40273,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.0905
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2024-10963",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "pam",
+              "version": "1.5.3-5ubuntu5.4"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2024-10963",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/libpam-modules-bin@1.5.3-5ubuntu5.4?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=639c2dd859892e5b\u0026upstream=pam",
+        "name": "libpam-modules-bin",
+        "version": "1.5.3-5ubuntu5.4",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/libpam-modules-bin/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-modules-bin.list",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-modules-bin.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-modules-bin.postinst",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-modules-bin.postrm",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-modules-bin.prerm",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "BSD-3-Clause",
+          "BSD-tcp_wrappers",
+          "Beerware",
+          "GPL",
+          "GPL-2.0-only",
+          "GPL-2.0-or-later",
+          "GPL-3.0-only",
+          "GPL-3.0-or-later",
+          "LGPL-2.0-only",
+          "LGPL-2.0-or-later",
+          "public-domain"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libpam-modules-bin:libpam-modules-bin:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam-modules-bin:libpam_modules_bin:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam_modules_bin:libpam-modules-bin:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam_modules_bin:libpam_modules_bin:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam-modules:libpam-modules-bin:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam-modules:libpam_modules_bin:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam_modules:libpam-modules-bin:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam_modules:libpam_modules_bin:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam:libpam-modules-bin:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam:libpam_modules_bin:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/libpam-modules-bin@1.5.3-5ubuntu5.4?arch=arm64\u0026distro=ubuntu-24.04\u0026upstream=pam",
+        "upstreams": [
+          {
+            "name": "pam"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2024-10041",
+        "dataSource": "https://ubuntu.com/security/CVE-2024-10041",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Medium",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2024-10041",
+            "epss": 0.00029,
+            "percentile": 0.06377,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.0145
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2024-10041",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "pam",
+              "version": "1.5.3-5ubuntu5.4"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2024-10041",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/libpam-runtime@1.5.3-5ubuntu5.4?arch=all\u0026distro=ubuntu-24.04\u0026package-id=3728a384c9aec6e1\u0026upstream=pam",
+        "name": "libpam-runtime",
+        "version": "1.5.3-5ubuntu5.4",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/libpam-runtime/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-runtime.conffiles",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-runtime.list",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-runtime.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-runtime.postinst",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-runtime.postrm",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-runtime.prerm",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-runtime.templates",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "BSD-3-Clause",
+          "BSD-tcp_wrappers",
+          "Beerware",
+          "GPL",
+          "GPL-2.0-only",
+          "GPL-2.0-or-later",
+          "GPL-3.0-only",
+          "GPL-3.0-or-later",
+          "LGPL-2.0-only",
+          "LGPL-2.0-or-later",
+          "public-domain"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libpam-runtime:libpam-runtime:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam-runtime:libpam_runtime:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam_runtime:libpam-runtime:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam_runtime:libpam_runtime:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam:libpam-runtime:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam:libpam_runtime:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/libpam-runtime@1.5.3-5ubuntu5.4?arch=all\u0026distro=ubuntu-24.04\u0026upstream=pam",
+        "upstreams": [
+          {
+            "name": "pam"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2024-10963",
+        "dataSource": "https://ubuntu.com/security/CVE-2024-10963",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Medium",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2024-10963",
+            "epss": 0.00181,
+            "percentile": 0.40273,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.0905
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2024-10963",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "pam",
+              "version": "1.5.3-5ubuntu5.4"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2024-10963",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/libpam-runtime@1.5.3-5ubuntu5.4?arch=all\u0026distro=ubuntu-24.04\u0026package-id=3728a384c9aec6e1\u0026upstream=pam",
+        "name": "libpam-runtime",
+        "version": "1.5.3-5ubuntu5.4",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/libpam-runtime/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-runtime.conffiles",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-runtime.list",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-runtime.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-runtime.postinst",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-runtime.postrm",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-runtime.prerm",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam-runtime.templates",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "BSD-3-Clause",
+          "BSD-tcp_wrappers",
+          "Beerware",
+          "GPL",
+          "GPL-2.0-only",
+          "GPL-2.0-or-later",
+          "GPL-3.0-only",
+          "GPL-3.0-or-later",
+          "LGPL-2.0-only",
+          "LGPL-2.0-or-later",
+          "public-domain"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libpam-runtime:libpam-runtime:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam-runtime:libpam_runtime:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam_runtime:libpam-runtime:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam_runtime:libpam_runtime:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam:libpam-runtime:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libpam:libpam_runtime:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/libpam-runtime@1.5.3-5ubuntu5.4?arch=all\u0026distro=ubuntu-24.04\u0026upstream=pam",
+        "upstreams": [
+          {
+            "name": "pam"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2024-10041",
+        "dataSource": "https://ubuntu.com/security/CVE-2024-10041",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Medium",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2024-10041",
+            "epss": 0.00029,
+            "percentile": 0.06377,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.0145
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2024-10041",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "pam",
+              "version": "1.5.3-5ubuntu5.4"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2024-10041",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/libpam0g@1.5.3-5ubuntu5.4?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=d6533082be82bb9b\u0026upstream=pam",
+        "name": "libpam0g",
+        "version": "1.5.3-5ubuntu5.4",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/libpam0g/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam0g:arm64.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "BSD-3-Clause",
+          "BSD-tcp_wrappers",
+          "Beerware",
+          "GPL",
+          "GPL-2.0-only",
+          "GPL-2.0-or-later",
+          "GPL-3.0-only",
+          "GPL-3.0-or-later",
+          "LGPL-2.0-only",
+          "LGPL-2.0-or-later",
+          "public-domain"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libpam0g:libpam0g:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/libpam0g@1.5.3-5ubuntu5.4?arch=arm64\u0026distro=ubuntu-24.04\u0026upstream=pam",
+        "upstreams": [
+          {
+            "name": "pam"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2024-10963",
+        "dataSource": "https://ubuntu.com/security/CVE-2024-10963",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Medium",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2024-10963",
+            "epss": 0.00181,
+            "percentile": 0.40273,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.0905
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2024-10963",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "pam",
+              "version": "1.5.3-5ubuntu5.4"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2024-10963",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/libpam0g@1.5.3-5ubuntu5.4?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=d6533082be82bb9b\u0026upstream=pam",
+        "name": "libpam0g",
+        "version": "1.5.3-5ubuntu5.4",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/libpam0g/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libpam0g:arm64.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "BSD-3-Clause",
+          "BSD-tcp_wrappers",
+          "Beerware",
+          "GPL",
+          "GPL-2.0-only",
+          "GPL-2.0-or-later",
+          "GPL-3.0-only",
+          "GPL-3.0-or-later",
+          "LGPL-2.0-only",
+          "LGPL-2.0-or-later",
+          "public-domain"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libpam0g:libpam0g:1.5.3-5ubuntu5.4:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/libpam0g@1.5.3-5ubuntu5.4?arch=arm64\u0026distro=ubuntu-24.04\u0026upstream=pam",
+        "upstreams": [
+          {
+            "name": "pam"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2024-41996",
+        "dataSource": "https://ubuntu.com/security/CVE-2024-41996",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Low",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2024-41996",
+            "epss": 0.00166,
+            "percentile": 0.38334,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.0498
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2024-41996",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "openssl",
+              "version": "3.0.13-0ubuntu3.5"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2024-41996",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.5?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=ea8721ca33c17a98\u0026upstream=openssl",
+        "name": "libssl3t64",
+        "version": "3.0.13-0ubuntu3.5",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/libssl3t64/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libssl3t64:arm64.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "Apache-2.0",
+          "Artistic",
+          "GPL-1.0-only",
+          "GPL-1.0-or-later"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libssl3t64:libssl3t64:3.0.13-0ubuntu3.5:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.5?arch=arm64\u0026distro=ubuntu-24.04\u0026upstream=openssl",
+        "upstreams": [
+          {
+            "name": "openssl"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-27587",
+        "dataSource": "https://ubuntu.com/security/CVE-2025-27587",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Low",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2025-27587",
+            "epss": 0.00043,
+            "percentile": 0.12591,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.012899999999999998
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-27587",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "openssl",
+              "version": "3.0.13-0ubuntu3.5"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-27587",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.5?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=ea8721ca33c17a98\u0026upstream=openssl",
+        "name": "libssl3t64",
+        "version": "3.0.13-0ubuntu3.5",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/libssl3t64/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libssl3t64:arm64.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "Apache-2.0",
+          "Artistic",
+          "GPL-1.0-only",
+          "GPL-1.0-or-later"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libssl3t64:libssl3t64:3.0.13-0ubuntu3.5:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.5?arch=arm64\u0026distro=ubuntu-24.04\u0026upstream=openssl",
+        "upstreams": [
+          {
+            "name": "openssl"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-6141",
+        "dataSource": "https://ubuntu.com/security/CVE-2025-6141",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Low",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2025-6141",
+            "epss": 0.00014,
+            "percentile": 0.01714,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.0042
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-6141",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "ncurses",
+              "version": "6.4+20240113-1ubuntu2"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-6141",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/libtinfo6@6.4%2B20240113-1ubuntu2?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=c92bc0fd9d184d74\u0026upstream=ncurses",
+        "name": "libtinfo6",
+        "version": "6.4+20240113-1ubuntu2",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/libtinfo6/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/libtinfo6:arm64.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "BSD-3-Clause",
+          "MIT/X11",
+          "X11"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libtinfo6:libtinfo6:6.4\\+20240113-1ubuntu2:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/libtinfo6@6.4%2B20240113-1ubuntu2?arch=arm64\u0026distro=ubuntu-24.04\u0026upstream=ncurses",
+        "upstreams": [
+          {
+            "name": "ncurses"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2024-56433",
+        "dataSource": "https://ubuntu.com/security/CVE-2024-56433",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Low",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2024-56433",
+            "epss": 0.02872,
+            "percentile": 0.8569,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.8615999999999999
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2024-56433",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "shadow",
+              "version": "1:4.13+dfsg1-4ubuntu3.2"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2024-56433",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/login@1%3A4.13%2Bdfsg1-4ubuntu3.2?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=487fe7e5e050c81b\u0026upstream=shadow",
+        "name": "login",
+        "version": "1:4.13+dfsg1-4ubuntu3.2",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/login/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/login.conffiles",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/login.list",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/login.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/login.postinst",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/login.postrm",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/login.preinst",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/login.prerm",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "BSD-3-Clause",
+          "GPL-1.0-only",
+          "GPL-2.0-only",
+          "GPL-2.0-or-later",
+          "public-domain"
+        ],
+        "cpes": [
+          "cpe:2.3:a:login:login:1\\:4.13\\+dfsg1-4ubuntu3.2:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/login@1%3A4.13%2Bdfsg1-4ubuntu3.2?arch=arm64\u0026distro=ubuntu-24.04\u0026upstream=shadow",
+        "upstreams": [
+          {
+            "name": "shadow"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-6141",
+        "dataSource": "https://ubuntu.com/security/CVE-2025-6141",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Low",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2025-6141",
+            "epss": 0.00014,
+            "percentile": 0.01714,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.0042
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-6141",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "ncurses",
+              "version": "6.4+20240113-1ubuntu2"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-6141",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/ncurses-base@6.4%2B20240113-1ubuntu2?arch=all\u0026distro=ubuntu-24.04\u0026package-id=9ce712b33a96bea6\u0026upstream=ncurses",
+        "name": "ncurses-base",
+        "version": "6.4+20240113-1ubuntu2",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/ncurses-base/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/ncurses-base.conffiles",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/ncurses-base.list",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/ncurses-base.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "BSD-3-Clause",
+          "MIT/X11",
+          "X11"
+        ],
+        "cpes": [
+          "cpe:2.3:a:ncurses-base:ncurses-base:6.4\\+20240113-1ubuntu2:*:*:*:*:*:*:*",
+          "cpe:2.3:a:ncurses-base:ncurses_base:6.4\\+20240113-1ubuntu2:*:*:*:*:*:*:*",
+          "cpe:2.3:a:ncurses_base:ncurses-base:6.4\\+20240113-1ubuntu2:*:*:*:*:*:*:*",
+          "cpe:2.3:a:ncurses_base:ncurses_base:6.4\\+20240113-1ubuntu2:*:*:*:*:*:*:*",
+          "cpe:2.3:a:ncurses:ncurses-base:6.4\\+20240113-1ubuntu2:*:*:*:*:*:*:*",
+          "cpe:2.3:a:ncurses:ncurses_base:6.4\\+20240113-1ubuntu2:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/ncurses-base@6.4%2B20240113-1ubuntu2?arch=all\u0026distro=ubuntu-24.04\u0026upstream=ncurses",
+        "upstreams": [
+          {
+            "name": "ncurses"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-6141",
+        "dataSource": "https://ubuntu.com/security/CVE-2025-6141",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Low",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2025-6141",
+            "epss": 0.00014,
+            "percentile": 0.01714,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.0042
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-6141",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "ncurses",
+              "version": "6.4+20240113-1ubuntu2"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-6141",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/ncurses-bin@6.4%2B20240113-1ubuntu2?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=da3b9e7ef2f01c89\u0026upstream=ncurses",
+        "name": "ncurses-bin",
+        "version": "6.4+20240113-1ubuntu2",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/ncurses-bin/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/ncurses-bin.list",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/ncurses-bin.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "BSD-3-Clause",
+          "MIT/X11",
+          "X11"
+        ],
+        "cpes": [
+          "cpe:2.3:a:ncurses-bin:ncurses-bin:6.4\\+20240113-1ubuntu2:*:*:*:*:*:*:*",
+          "cpe:2.3:a:ncurses-bin:ncurses_bin:6.4\\+20240113-1ubuntu2:*:*:*:*:*:*:*",
+          "cpe:2.3:a:ncurses_bin:ncurses-bin:6.4\\+20240113-1ubuntu2:*:*:*:*:*:*:*",
+          "cpe:2.3:a:ncurses_bin:ncurses_bin:6.4\\+20240113-1ubuntu2:*:*:*:*:*:*:*",
+          "cpe:2.3:a:ncurses:ncurses-bin:6.4\\+20240113-1ubuntu2:*:*:*:*:*:*:*",
+          "cpe:2.3:a:ncurses:ncurses_bin:6.4\\+20240113-1ubuntu2:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/ncurses-bin@6.4%2B20240113-1ubuntu2?arch=arm64\u0026distro=ubuntu-24.04\u0026upstream=ncurses",
+        "upstreams": [
+          {
+            "name": "ncurses"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2024-56433",
+        "dataSource": "https://ubuntu.com/security/CVE-2024-56433",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Low",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2024-56433",
+            "epss": 0.02872,
+            "percentile": 0.8569,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.8615999999999999
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2024-56433",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "shadow",
+              "version": "1:4.13+dfsg1-4ubuntu3.2"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2024-56433",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/passwd@1%3A4.13%2Bdfsg1-4ubuntu3.2?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=3c0579aee7581474\u0026upstream=shadow",
+        "name": "passwd",
+        "version": "1:4.13+dfsg1-4ubuntu3.2",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/passwd/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/passwd.conffiles",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/passwd.list",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/passwd.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/passwd.postinst",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/passwd.postrm",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/passwd.preinst",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/passwd.prerm",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "BSD-3-Clause",
+          "GPL-1.0-only",
+          "GPL-2.0-only",
+          "GPL-2.0-or-later",
+          "public-domain"
+        ],
+        "cpes": [
+          "cpe:2.3:a:passwd:passwd:1\\:4.13\\+dfsg1-4ubuntu3.2:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/passwd@1%3A4.13%2Bdfsg1-4ubuntu3.2?arch=arm64\u0026distro=ubuntu-24.04\u0026upstream=shadow",
+        "upstreams": [
+          {
+            "name": "shadow"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-40909",
+        "dataSource": "https://ubuntu.com/security/CVE-2025-40909",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Medium",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2025-40909",
+            "epss": 0.00006,
+            "percentile": 0.00235,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.003
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-40909",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "perl",
+              "version": "5.38.2-3.2ubuntu0.1"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-40909",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/perl-base@5.38.2-3.2ubuntu0.1?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=c0269b82c31f31ed\u0026upstream=perl",
+        "name": "perl-base",
+        "version": "5.38.2-3.2ubuntu0.1",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/perl-base/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/perl-base.list",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/perl-base.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/perl-base.postinst",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/perl-base.postrm",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/perl-base.preinst",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/perl-base.prerm",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "Artistic",
+          "Artistic-2.0",
+          "Artistic-dist",
+          "BSD-3-Clause",
+          "BSD-3-clause-GENERIC",
+          "BSD-3-clause-with-weird-numbering",
+          "BSD-4-clause-POWERDOG",
+          "BZIP",
+          "DONT-CHANGE-THE-GPL",
+          "Expat",
+          "FSFAP",
+          "GPL-1.0-only",
+          "GPL-1.0-or-later",
+          "GPL-2.0-only",
+          "GPL-2.0-or-later",
+          "GPL-3+-WITH-BISON-EXCEPTION",
+          "LGPL-2.1-only",
+          "REGCOMP",
+          "REGCOMP,",
+          "SDBM-PUBLIC-DOMAIN",
+          "TEXT-TABS",
+          "Unicode",
+          "Zlib"
+        ],
+        "cpes": [
+          "cpe:2.3:a:perl-base:perl-base:5.38.2-3.2ubuntu0.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:perl-base:perl_base:5.38.2-3.2ubuntu0.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:perl_base:perl-base:5.38.2-3.2ubuntu0.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:perl_base:perl_base:5.38.2-3.2ubuntu0.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:perl:perl-base:5.38.2-3.2ubuntu0.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:perl:perl_base:5.38.2-3.2ubuntu0.1:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/perl-base@5.38.2-3.2ubuntu0.1?arch=arm64\u0026distro=ubuntu-24.04\u0026upstream=perl",
+        "upstreams": [
+          {
+            "name": "perl"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-45582",
+        "dataSource": "https://ubuntu.com/security/CVE-2025-45582",
+        "namespace": "ubuntu:distro:ubuntu:24.04",
+        "severity": "Medium",
+        "urls": [],
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2025-45582",
+            "epss": 0.00032,
+            "percentile": 0.07201,
+            "date": "2025-07-15"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.016
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-45582",
+          "dataSource": "",
+          "namespace": "nvd:cpe",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "ubuntu",
+              "version": "24.04"
+            },
+            "package": {
+              "name": "tar",
+              "version": "1.35+dfsg-3build1"
+            },
+            "namespace": "ubuntu:distro:ubuntu:24.04"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-45582",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "pkg:deb/ubuntu/tar@1.35%2Bdfsg-3build1?arch=arm64\u0026distro=ubuntu-24.04\u0026package-id=241fbe7c8c74d6f6",
+        "name": "tar",
+        "version": "1.35+dfsg-3build1",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/share/doc/tar/copyright",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/tar.list",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/tar.md5sums",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/tar.postinst",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/info/tar.prerm",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          },
+          {
+            "path": "/var/lib/dpkg/status",
+            "layerID": "sha256:ccd2cfe57c25db3597f049070e10ffe286c34a12ccaadcf69ce28543ce350979",
+            "accessPath": ""
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "GPL-2.0-only",
+          "GPL-2.0-or-later",
+          "GPL-3.0-only",
+          "GPL-3.0-or-later",
+          "LGPL-2.1-only",
+          "LGPL-2.1-or-later",
+          "LGPL-3.0-only",
+          "LGPL-3.0-or-later"
+        ],
+        "cpes": [
+          "cpe:2.3:a:tar:tar:1.35\\+dfsg-3build1:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/ubuntu/tar@1.35%2Bdfsg-3build1?arch=arm64\u0026distro=ubuntu-24.04",
+        "upstreams": []
+      }
+    }
+  ],
+  "source": {
+    "type": "image",
+    "target": {
+      "userInput": "ubuntu",
+      "imageID": "85741337f2be9596",
+      "manifestDigest": "sha256:b10774fab940730a21a63c62d29970723ad5432664ca08a0edddde930661c234",
+      "mediaType": "",
+      "tags": [],
+      "imageSize": 0,
+      "layers": null,
+      "manifest": null,
+      "config": null,
+      "repoDigests": [],
+      "architecture": "",
+      "os": "",
+      "labels": {
+        "org.opencontainers.image.ref.name": "ubuntu",
+        "org.opencontainers.image.version": "24.04"
+      }
+    }
+  },
+  "distro": {
+    "name": "ubuntu",
+    "version": "24.04",
+    "idLike": [
+      "debian"
+    ]
+  },
+  "descriptor": {
+    "name": "grype",
+    "version": "[not provided]",
+    "timestamp": "2025-07-16T11:36:22.642961+01:00"
+  }
+}
